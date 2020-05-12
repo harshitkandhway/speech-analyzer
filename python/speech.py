@@ -1,5 +1,5 @@
 import speech_recognition as sr
-filename="speech2.wav"
+filename="audio_testing.wav"
 r=sr.Recognizer()
 with sr.AudioFile(filename) as source:
 	audio_data = r.record(source)
